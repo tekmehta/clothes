@@ -35,10 +35,10 @@ const Footer = () => {
               <h5 className="text-lg font-bold mb-4">Contact Us</h5>
               <ul className="space-y-2">
                 <li>
-                  <a href="tel:+123456789" className="text-gray-300 hover:text-green-500">+123456789</a>
+                  <a href="tel:+9779824765952" className="text-gray-300 hover:text-green-500">+9779824765952</a>
                 </li>
                 <li>
-                  <a href="mailto:info@example.com" className="text-gray-300 hover:text-green-500">info@example.com</a>
+                  <a href="mailto:info@example.com" className="text-gray-300 hover:text-green-500">ntek7907@gmail.com</a>
                 </li>
               </ul>
             </div>
@@ -46,7 +46,7 @@ const Footer = () => {
               <h5 className="text-lg font-bold mb-4">Follow Us</h5>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-gray-300 hover:text-yellow-500 flex items-center">
+                  <a href="https://www.facebook.com/" className="text-gray-300 hover:text-yellow-500 flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -59,7 +59,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-300 hover:text-yellow-500 flex items-center">
+                  <a href="https://x.com/" className="text-gray-300 hover:text-yellow-500 flex items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
