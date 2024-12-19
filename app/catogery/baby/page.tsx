@@ -7,7 +7,9 @@ const Baby = () => {
     return (
         <div>
             <Navbar/>
-            <ClothList/>
+            <div className="pt-12">
+                <ClothList/>
+            </div>
         </div>
     )
 }
