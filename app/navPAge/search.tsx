@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { FaSearch } from "react-icons/fa";
 
 const Search =() =>{
@@ -13,6 +14,14 @@ const Search =() =>{
                 </div>
             </div>
         </>
+=======
+
+const Search =() =>{
+    return(
+        <div className="container-fluid px-1 w-full">
+            <input className="w-full p-2 flex justify-center" type="text" placeholder="Search for clothes..."/>
+        </div>
+>>>>>>> e0c073c51a113c9e0a7c253eb8c2cebe37b2ff96
     )
 }
 
