@@ -1,17 +1,15 @@
 
 import Carousel from "@/app/navPAge/carousel";
 import ClothList from "@/app/navPAge/item-Container";
-<<<<<<< HEAD
+
 import Navbar from "@/app/navPAge/navbar";
 import Search from "@/app/navPAge/search";
-=======
->>>>>>> e0c073c51a113c9e0a7c253eb8c2cebe37b2ff96
+
 import React from "react";
 
 const ItemsDetails = () => {
     return(
         <>
-<<<<<<< HEAD
             <Navbar/>
             <div className="pt-9">
                 <Search/>
@@ -133,7 +131,6 @@ const ItemsDetails = () => {
                             <button className="w-1/2 bg-gradient-to-r from-green-500 to-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:scale-105 transition-all duration-300">Buy Now</button>
                         </div>
                     </div>
-=======
             <Carousel/>
             <div className=" pl-[30px] pr-[30px] pb-5">
                 <h2 className="flex justify-center text-3xl font-bold">Womens Fashion One Piece</h2>
@@ -245,8 +242,9 @@ const ItemsDetails = () => {
                 <div className="sticky bottom-0 right-1/2 transform -translate-x flex space-x-20">
                     <button className="w-1/2 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:scale-105 transition-all duration-300">Add To Card</button>
                     <button className="w-1/2 bg-gradient-to-r from-green-500 to-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:scale-105 transition-all duration-300">Buy Now</button>
->>>>>>> e0c073c51a113c9e0a7c253eb8c2cebe37b2ff96
                 </div>
+            </div>
+            </div>
             </div>
             <ClothList/>
         </>

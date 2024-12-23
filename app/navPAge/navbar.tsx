@@ -24,11 +24,7 @@ const Navbar = () => {
         ☰
       </button>
 
-<<<<<<< HEAD
       {/* Left Sidebar For Menu */}
-=======
-      {/* Sidebar */}
->>>>>>> e0c073c51a113c9e0a7c253eb8c2cebe37b2ff96
       <div
         className={`fixed top-0 left-0 h-full w-44 bg-blue-400 shadow-lg transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
@@ -65,31 +61,20 @@ const Navbar = () => {
         </nav>
       </div>
 
-<<<<<<< HEAD
       {/* Catagory Of Items */}
-=======
-      {/* Logo */}
->>>>>>> e0c073c51a113c9e0a7c253eb8c2cebe37b2ff96
       <div className="flex items-center">
         <div className="flex gap-2">
-            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[10px]" href={"/catogery/baby"}>Baby</Link>
+            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[9px]" href={"/catogery/baby"}>Baby</Link>
             <p>|</p>
-            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[10px]" href={"/catogery/kids"}>kids</Link>
-<<<<<<< HEAD
+            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[9px]" href={"/catogery/kids"}>kids</Link>
             <p>|</p>
-            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[10px]" href={"/catogery/kids"}>Gifts</Link>
+            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[9px]" href={"/catogery/kids"}>Gifts</Link>
             <p>|</p>
-            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[10px]" href={"/catogery/kids"}>Jacket</Link>
+            <Link className="hover:underline hover:text-red-500 hover:bg-gray-300 hover:p-1 hover:rounded-[9px]" href={"/catogery/kids"}>Jacket</Link>
         </div>
       </div>
 
       {/* Profile Dropdown On Right Side */}
-=======
-        </div>
-      </div>
-
-      {/* Profile Dropdown */}
->>>>>>> e0c073c51a113c9e0a7c253eb8c2cebe37b2ff96
       <div className="flex gap-2">
         <button
           onClick={toggleProfileDropdown}
