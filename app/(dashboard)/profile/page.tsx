@@ -17,7 +17,7 @@ const Profile = () => {
     <>
   <Navbar />
   <div className="min-h-screen bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center p-4 sm:p-8">
-    <div className="max-w-4xl w-full p-6 bg-white rounded-lg shadow-lg">
+    <div className="max-w-4xl w-full p-7 bg-white rounded-lg shadow-lg">
       {/* Navigation */}
       <div className="flex justify-center mb-6">
         <table className="w-full border-collapse">
